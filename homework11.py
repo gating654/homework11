@@ -4,8 +4,8 @@ class House:
 
     def setNewNumberOfFloors(self, floors):
         numberOfFloors = floors
-        return print(numberOfFloors)
+        return numberOfFloors
 
 
 h1 = House()
-h1.setNewNumberOfFloors(3)
+print(h1.setNewNumberOfFloors(3))
